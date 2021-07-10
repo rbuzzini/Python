@@ -27,7 +27,7 @@ p2 = prod1([1, 2, 3, 4, 5])
 print(p1, p2)
 
 
-# Solution 2 (without division):
+# Solution 2 (without division): 
 
 def prod2(arr):
     arr2 = []
