@@ -11,20 +11,20 @@ def window(arr):
     # Create a copy of arr to be sure to maintain its values equals:
     arr3 = arr[:]
 
-    for i in range(len(arr)-1):
-        if arr[i] <= arr[i+1]:
-            arr2.append(arr[i])
+    for i in range(len(arr3)-1):
+        if arr3[i] <= arr3[i+1]:
+            arr2.append(arr3[i])
         else:
-            arr2.append(arr[i+1])
-            arr[i+1] = arr[i]
-    arr2.append(arr[len(arr)-1])
+            arr2.append(arr3[i+1])
+            arr3[i+1] = arr3[i]
+    arr2.append(arr3[len(arr3)-1])
 
     # Generate an empty list to contain all the positions of different elements.
     check_positions = []
 
     # Check first and last elements that are different between arr and arr2.
-    for i in range(len(arr3)):
-        if arr3[i] != arr2[i]:
+    for i in range(len(arr)):
+        if arr[i] != arr2[i]:
             check_positions.append(i)
         else:
             pass
@@ -50,7 +50,7 @@ def window2(arr):
     
     return left, right
 
-l = [3, 7, 5, 6, 9]
+#l = [3, 7, 5, 6, 9]
 result2 = window2(l)
 print(result2)
 
