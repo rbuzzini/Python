@@ -2,7 +2,7 @@
 Notebooks on building Python basics!
 Exercises on data structures, data manipulation and more!
 
-## References
+### References
 - [Learn Python the Right Way](https://learnpythontherightway.com) 
 - [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
 - `Daily Coding Problem book` and [site](https://www.dailycodingproblem.com/)
