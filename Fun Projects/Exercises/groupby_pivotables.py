@@ -46,6 +46,20 @@ df_grouped_maxValue
 # Solution 2:
 # Iterate finding max value by class. Create a columns equal to 1 when the value
 # is the max value in the class, 0 otherwise.
+df_grouped_maxValue2 = pd.DataFrame()
+for group in df_grouped['class'].unique():
+    #f"df_{group}" = df_grouped[df_grouped['class'] == group]     # I don't know why it gives an indentation error
+    df_temp = df_grouped[df_grouped['class'] == group]
+    #print(df_temp)
+    for i in df_temp.index:
+        if df_temp.loc[i, 'value'] == df_temp['value'].max():
+            df_grouped_maxValue2 = df_grouped_maxValue2.append(df_temp.loc[i])
+        else:
+            pass
+
+
+df_grouped_maxValue2
+df_grouped_maxValue2.equals(df_grouped_maxValue)
 
 
 # Solution 3:
