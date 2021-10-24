@@ -44,7 +44,13 @@ df_grouped_maxValue
 
 
 # Solution 2:
-# give a rank to eache class codes with a window function.
+# Iterate finding max value by class. Create a columns equal to 1 when the value
+# is the max value in the class, 0 otherwise.
+
+
+# Solution 3:
+# Use a rank function, window function?
+
 
 
     
