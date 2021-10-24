@@ -45,7 +45,7 @@ df_grouped_maxValue
 
 # Solution 2:
 # Iterate finding max value by class. Create a columns equal to 1 when the value
-# is the max value in the class, 0 otherwise.
+# is the max value in the class, 0 otherwise ( Or simply append the row with max value)
 df_grouped_maxValue2 = pd.DataFrame()
 for group in df_grouped['class'].unique():
     #f"df_{group}" = df_grouped[df_grouped['class'] == group]     # I don't know why it gives an indentation error
