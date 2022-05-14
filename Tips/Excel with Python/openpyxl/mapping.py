@@ -1,0 +1,11 @@
+
+# Transactions fields:							
+
+TXN_ID = 0
+MEMBER_ID = 1 
+TICKER = 2
+TXN_DATE = 3
+TXN_TIME = 4
+TXN_TYPE = 5
+QUANTITY = 6
+PERCENTAGE_FEE = 7
