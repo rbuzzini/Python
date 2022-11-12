@@ -45,4 +45,5 @@ ttest_ind(x, y, equal_var=False)
 
 # Reminder: to apply T-Student test there is an important assumption:
 # the distribution of the samples on which it is applied must be normal
+# To evaluate this assumption you could use Shapiro-Wilk test.
 
