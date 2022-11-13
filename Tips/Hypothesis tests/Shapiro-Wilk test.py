@@ -19,3 +19,4 @@ shapiro(z) # ===> as we could expect we reject the null hypothesis
 # Shapiro-Wilk test has a limit: it doesn't work on big samples (I remember
 # that the limit is like 5000 elements. To be sure about this treshhold see
 # Python documentation).
+# If the sample is to large we can use the Kolmogorov-Smirnov test instead.
