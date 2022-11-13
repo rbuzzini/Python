@@ -34,3 +34,7 @@ ks_2samp(x, y)
 
 # This test is very useful to assess that training and test datasets variables
 # have statistically the same distribution
+# If the probability distribution is different between training and test set
+# we could change the random.seed of the function that split the dataset into
+# training and test in order to change the sample datasets until we have 
+# similar datasets.
