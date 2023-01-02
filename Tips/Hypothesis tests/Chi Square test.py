@@ -27,6 +27,6 @@ chi2_contingency(tbl)
 # If all expected frequencies are > 30 this test is universally accepted, if
 # they are not the situation is too approximated so the p-value isn't reliable
 
-# When the contingency table is 2x2 the Fosher's exact test is more appropriated
+# When the contingency table is 2x2 Fisher's exact test is more appropriated
 # (it isn't affected by Pearson's chi square approximation).
 
