@@ -29,4 +29,4 @@ levene(x, y, z)   # we reject the null hypothesis
 # Important:
 # levene method has a parameter named 'center', this parameter indicates the
 # value on which the residues are calculated. It is equal to 'median' by default,
-# this allows it to be robust on samples non normality.
+# this allows it to be robust on samples non normality
